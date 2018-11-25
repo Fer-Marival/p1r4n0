@@ -1,0 +1,67 @@
+
+// Body
+$body-bg: #fff;
+$fondo: #f9f9f9;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+$pirano:#001040;
+$gray:#707070;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+//sombras:
+$shadow: -1px 3px 47px 3px rgba(0,0,0,0.29);
+$shadow-thumbs: 0 2px 5px 0 rgba(0,0,0,.26);
+$soft-shadow: 3px 3px 30px 3px rgba(0,0,0,0.29);
+
+// Panels
+$panel-default-heading-bg: #fff;
+$alpha:.08;
+
+// gradientes
+$degrade-pirano: linear-gradient(rgba($pirano,0), $pirano);
+$btn-degrade: linear-gradient( 135deg, $pirano 10%, #1D6FA3 100%);
+//collection
+// colors
+
+$color-1: #767070; // Dove Gray
+$color-2: #ccd0c1; // Kangaroo
+$color-3: #f3b96c; // Rajah
+$color-4: #f46c6a; // Froly
+$color-5: #ffffff; // White
+
+// fonts 
+
+$primary-font: 'Fira Sans', sans-serif;
+
+// animation
+
+$animation-duration: .6s;

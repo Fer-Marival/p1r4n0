@@ -1,0 +1,67 @@
+@media (max-width: 1091px) {
+	.container{
+		max-width:100%!important;
+	}
+}
+@media (max-width: 767px) {
+	.bottom-bar{
+		display: block;
+	}
+	header{
+		.brand{
+			display: block;
+			text-align: center;
+			width: 20%;
+		}
+		.social{
+			display:none;
+		}
+	}
+	#contact{
+		max-height: max-content;
+	}
+	footer{
+		margin-bottom: 90px;
+	}
+	#home #collections .row .col-md-4 {
+		margin: 1em auto;
+		&:hover{
+			transform: scale(1);
+			transition: all .5s;
+		}
+	}
+}
+@media (max-width: 600px) {
+	header{
+		display:none;
+	}
+	#menu-responsivo{
+		display:block!important;
+		text-align: center;
+		.brand{
+			width: 200px;
+			display: block;
+			margin:auto;
+			padding-top: 10px;
+		}
+	}
+	.nav{ display: none;}
+	.logo{
+		display:block;
+		text-align:center;
+	}
+	#social{
+		.grid-sizer,
+		.grid-item {
+		  width: 100%!important;
+		  height: auto!important;
+		}
+	}
+	.bottom-bar{
+		display: block;
+	}
+	#social {
+	    overflow: scroll;
+	    height: 400px;
+	}
+}

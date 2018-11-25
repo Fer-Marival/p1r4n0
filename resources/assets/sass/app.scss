@@ -1,0 +1,20 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import "../../../node_modules/@fortawesome/fontawesome/css/all.min.css";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "../../../node_modules/bourbon/core/_bourbon";
+
+//animate
+@import "../../../node_modules/animate/animate.min.css";
+@import "../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css";
+@import "../../../node_modules/slider-pro/dist/css/slider-pro.min.css";
+
+//General
+@import "frontend/style";
+@import "frontend/_responsive";

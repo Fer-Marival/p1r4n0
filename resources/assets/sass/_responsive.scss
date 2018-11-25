@@ -1,0 +1,15 @@
+@media (max-width:736){
+	.back-to-top{
+		bottom:50px;
+	}
+}
+@media (max-width: 600px) {
+	header #menu-responsivo{
+		display:block!important;
+	}
+	.nav{ display: none;}
+	.logo{
+		display:block;
+		text-align:center;
+	}
+}

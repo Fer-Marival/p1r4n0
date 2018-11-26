@@ -12451,19 +12451,19 @@ footer .options ul .social {
 }
 
 #collection .cd-slider li:first-of-type .image {
-  background-image: url(/media/img/img/img-1.jpg);
+  background-image: url(/media/img/slide-home1.jpg);
 }
 
 #collection .cd-slider li:nth-of-type(2) .image {
-  background-image: url(/media/img/img/img-2.jpg);
+  background-image: url(/media/img/slide-home2.jpg);
 }
 
 #collection .cd-slider li:nth-of-type(3) .image {
-  background-image: url(/media/img/img/img-3.jpg);
+  background-image: url(/media/img/slide-home3.jpg);
 }
 
 #collection .cd-slider li:nth-of-type(4) .image {
-  background-image: url(/media/img/img/img-4.jpg);
+  background-image: url(/media/img/slide-home4.jpg);
 }
 
 #collection .cd-slider .image {
@@ -12777,6 +12777,7 @@ footer .options ul .social {
 @media (max-width: 767px) {
   .bottom-bar {
     display: block;
+    z-index: 4;
   }
 
   header .brand {
@@ -12850,6 +12851,26 @@ footer .options ul .social {
   #social {
     overflow: scroll;
     height: 400px;
+  }
+
+  #collection .cd-slider .cd-half-block {
+    height: 30%;
+  }
+
+  #collection .cd-slider .content {
+    height: 70%;
+  }
+
+  #collection .cd-slider-navigation {
+    top: 25%;
+    width: 90%;
+    max-width: 220px;
+  }
+
+  #collection .cd-slider-navigation a {
+    width: 20px;
+    height: 20px;
+    margin: .5em;
   }
 }
 

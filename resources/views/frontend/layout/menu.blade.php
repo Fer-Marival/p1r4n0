@@ -15,19 +15,19 @@
 					<ul class="collection-hidden">
 						<li class="nav-item">
 							<section>
-								<div class="name">Summer</div>
+								<div class="name">Pirano Sun</div>
 								<div class="thumb"><a href="{{url('/colecciones/summer')}}"><img src="{!!asset('/media/img/colection1.jpg')!!}" class="img-fluid" alt="Pirano 1913 sun"></a></div>
 							</section>	
 						</li>
 						<li class="nav-item ">
 							<section>
-								<div class="name">Vista</div>
+								<div class="name">Pirano Vista</div>
 								<div class="thumb"><a href="{{url('/colecciones/vista')}}"><img src="{!!asset('/media/img/colection2.jpg')!!}" class="img-fluid" alt="Pirano 1913 Vista"></a></div>
 							</section>
 						</li>
 						<li class="nav-item ">
 							<section>
-								<div class="name">Kids</div>
+								<div class="name">Pirano Kids</div>
 								<div class="thumb"><a href="{{url('/colecciones/kids')}}"><img src="{!!asset('/media/img/colection3.jpg')!!}" class="img-fluid" alt="Pirano 1913 Kids"></a></div>
 							</section>
 						</li>

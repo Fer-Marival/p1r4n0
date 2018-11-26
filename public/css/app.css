@@ -11785,7 +11785,6 @@ header nav .social a:hover {
   height: auto;
   cursor: pointer;
   border-radius: 3px;
-  background-color: #DDD;
   text-align: center;
 }
 
@@ -11798,6 +11797,22 @@ header nav .social a:hover {
 
 #home #more-sale .item img:hover {
   opacity: .8;
+}
+
+#home #more-sale .item .content a {
+  display: block;
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+  border-radius: 2px;
+  color: #001040;
+}
+
+#home #more-sale .item .content a:hover {
+  background-color: #001040;
+  color: white;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 #team {

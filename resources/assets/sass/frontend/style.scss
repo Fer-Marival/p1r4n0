@@ -441,7 +441,6 @@ header{
 			height:auto;
 			cursor:pointer;
 			border-radius:3px;
-			background-color: #DDD;
 			text-align: center;
 			img{
 				transition: all .5s ease-in-out;
@@ -449,6 +448,19 @@ header{
 				height:  auto;
 				&:hover{
 					opacity: .8;
+				}
+			}
+			.content a{
+				display: block;
+				width: 100%;
+				background-color: white;
+				padding:5px;
+				border-radius: 2px;
+				color: $pirano;
+				&:hover{
+					background-color: $pirano;
+					color: white;
+					transition: all .5s ease-in-out;
 				}
 			}
 		}

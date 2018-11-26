@@ -5,7 +5,7 @@
 	{{-- <article>
 			<a data-fancybox href="https://www.youtube.com/watch?v=ru4wYqhCUeY&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0">Click aqui</a> 
 		</article>--}}
-		<video autoplay loop id="video-background" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148422/screencap-wheel.png" muted>
+		<video autoplay loop id="video-background" poster="" muted>
 			<source src="{{asset('media/video/video.mp4') }}" type="video/mp4">
 		</video>
 	</div>
@@ -36,9 +36,6 @@
 						</div>
 						<div class="sp-slide">
 							<img class="sp-image" alt="Pirano1913 modelos" title="Pirano1913" src="{!! asset('media/img/slide-home3.jpg')!!}"/>
-						</div>
-						<div class="sp-slide">
-							<img class="sp-image" alt="Pirano1913 modelos" title="Pirano1913" src="{!! asset('media/img/slide-home4.jpg')!!}"/>
 						</div>
 						<div class="sp-slide">
 							<img class="sp-image" alt="Pirano1913 modelos" title="Pirano1913" src="{!! asset('media/img/slide-home4.jpg')!!}"/>
@@ -92,7 +89,7 @@
 			<div class="col-md-4 content">
 				<div class="tittle">Otoño - Invierno</div>
 				<p>Conoce la nueva colección de Pirano1913 y luce con estilo en otoño e invierno </p>
-				<a href="/collections/summer" class="btn btn-border">Conoce los modelos <span>&#x02992;</span></a>
+				<a href="/colecciones" class="btn btn-border">Conoce nuestras colecciones <span>&#x02992;</span></a>
 			</div>
 		</div>
 		<div id="more-sale">
@@ -101,37 +98,53 @@
 				<div class="col-6 col-md-3">
 					<div class="item">
 						<figure>
-							<a href="#">
+							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-tr1625-c3/">
 								<img src="{!! asset('/media/img/product1.jpg') !!}"class="img-fluid" alt="">
 							</a>
 						</figure>
+						<div class="content">
+							<div class="model"><strong>Modelo:</strong> TR1625 C_3</div>
+							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-tr1625-c3/">Ver más</a>
+						</div>
 					</div>
 				</div>
 				<div class="col-6 col-md-3">
 					<div class="item">
 						<figure>
-							<a href="#">
+							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-m6019_c3/">
 								<img src="{!! asset('/media/img/product2.jpg') !!}"class="img-fluid" alt="">
 							</a>
 						</figure>
+						<div class="content">
+							<div class="model"><strong>Modelo:</strong> M6019_c3</div>
+							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-m6019_c3/">Ver más</a>
+						</div>
 					</div>
 				</div>
 				<div class="col-6 col-md-3">
 					<div class="item">
 						<figure>
-							<a href="#">
+							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-1691-c9/">
 								<img src="{!! asset('/media/img/product3.jpg') !!}" class="img-fluid" alt="">
 							</a>
 						</figure>
+						<div class="content">
+							<div class="model"><strong>Modelo:</strong> 1691-c9</div>
+							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-1691-c9/">Ver más</a>
+						</div>
 					</div>
 				</div>
 				<div class="col-6 col-md-3">
 					<div class="item">
 						<figure>
-							<a href="#">
+							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-6076-c2/">
 								<img src="{!! asset('/media/img/product4.jpg') !!}"class="img-fluid" alt="">
 							</a>
 						</figure>
+						<div class="content">
+							<div class="model"><strong>Modelo:</strong> 6076_c2</div>
+							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-6076-c2/">Ver más</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -140,7 +153,7 @@
 			<div class="row  align-items-center">
 				<div class="col-12 col-md-6">
 					<div class="pictures">
-						<a data-fancybox href="https://www.youtube.com/watch?v=ru4wYqhCUeY&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0">
+						<a data-fancybox href="https://www.youtube.com/watch?v=AELyi16PzWI&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0">
 							<img src="{!!asset('media/img/team1.jpg') !!}" alt="" class="img-fluid" width="60%">
     						<img src="{!! asset('media/img/team2.jpg')!!}" alt="" width="70%">
     					</a>

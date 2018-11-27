@@ -18,6 +18,21 @@
 			display:none;
 		}
 	}
+	#v-bg{
+		background-image: url('/media/img/header-mobile.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+		video{
+			display: none;
+		}
+		.see-video a{
+			background-color: rgba(white, .4);
+			border-radius: 4px;
+			font-weight: 400;
+		}	
+
+	}
 	#contact{
 		max-height: max-content;
 	}
@@ -31,6 +46,11 @@
 			transition: all .5s;
 		}
 	}
+	#news section article form button{
+			margin: 1em auto;
+			width: 200px;
+			display: block;
+		}		
 }
 @media (max-width: 600px) {
 	header{

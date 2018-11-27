@@ -2,10 +2,10 @@
 @extends('frontend.master')
 @section('content')
 	<div class="container-fluid video" id="v-bg">
-	{{-- <article>
-			<a data-fancybox href="https://www.youtube.com/watch?v=ru4wYqhCUeY&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0">Click aqui</a> 
-		</article>--}}
-		<video autoplay loop id="video-background" poster="" muted>
+		<article class="see-video">
+			<a data-fancybox href="https://www.youtube.com/watch?v=AELyi16PzWI&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="btn-border">Ver video completo</a> 
+		</article>
+		<video autoplay loop id="video-background" poster="{!! asset('media/img/header-mobile.jpg')!!}" muted>
 			<source src="{{asset('media/video/video.mp4') }}" type="video/mp4">
 		</video>
 	</div>
@@ -165,8 +165,8 @@
 		</div>
 		<div id="social">
 			<div class="row justify-content-md-center align-items-center">
-				<div class="col-1"><img src="{!! asset('media/img/icons/insta.svg') !!}" alt="insta" class="img-fluid"></div>
-				<div class="col-2">
+				<div class="col-2"><img src="{!! asset('media/img/icons/insta.svg') !!}" alt="insta" class="img-fluid"></div>
+				<div class="col-8">
 					<div class="tittle">
 						<h4>Síguenos en Instagram </h4>
 					</div>

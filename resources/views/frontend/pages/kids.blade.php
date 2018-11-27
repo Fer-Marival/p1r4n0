@@ -1,20 +1,20 @@
 @extends('frontend.master')
 @section('content')
 <div class="clear"></div>
-<div class="container" id="summer">
+<div class="container" id="kids">
 	<div class="collections">
 		<div class="colle-header">
 			<div class="row align-items-center">
-				<div class="col-md-6">
-					<img src="/media/img/kids.jpg" alt="" class="img-fluid"> <br /><br />
-					<em>Este pasado mes del niño, <strong>Grupo Vespucci me</strong> nos sorprendió con el nuevo lanzamiento de la línea de gafas <strong>Pirano KidS,</strong> con una propuesta de armazones Ultra resistentes para nuestros pequeños aventureros.</em>
+				<div class="col-md-8">
+					<img src="{!! asset('/media/img/kids.jpg')!!}" alt="Lentes Pirano Kids" class="img-fluid"> <br /><br />
+					<p><strong>Lentes Pirano 1913 </strong> presenta el nuevo lanzamiento de la línea de gafas <strong>Pirano KidS,</strong> con una propuesta de armazones Ultra resistentes para nuestros pequeños aventureros.</p>
 				</div>
-				<div class="col-md-6 text-center">
-					<img src="{!!asset('/media/img/colection3.jpg')!!}" class="img-fluid" alt="">
+				<div class="col-md-4 text-center">
+					<img src="{!!asset('/media/img/colection3.jpg')!!}" alt="Lentes Pirano Kids" class="img-fluid" alt="">
 				</div>
 				<div class="clearfix"></div>
 				<div class="col-md-6">
-					<img src="{!!asset('/media/img/summer/2.jpg')!!}" class="img-fluid" alt="">
+					<img src="{!! asset('media/img/piranokids3.jpg')!!}" alt="Lentes Pirano Kids" title="Pirano kids" class="img-fluid" alt="">
 				</div>
 				<div class="col-md-6">
 					<section class="description">
@@ -28,7 +28,22 @@
 					</section>
 				</div>
 				<div class="col-md-6">
-					<img src="{!!asset('/media/img/summer/product.jpg')!!}" class="img-fluid" alt="">
+					<div class="slider-pro" id="my-slider">
+						<div class="sp-slides">
+							<div class="sp-slide">
+								<img class="sp-image" alt="Pirano1913 modelos" title="Pirano1913" src="{!! asset('media/img/piranokids1.jpg')!!}"/>
+							</div>
+							<div class="sp-slide">
+								<img class="sp-image" alt="Pirano1913 modelos" title="Pirano1913" src="{!! asset('media/img/piranokids2.jpg')!!}"/>
+							</div>
+							<div class="sp-slide">
+								<img class="sp-image" alt="Pirano1913 modelos" title="Pirano1913" src="{!! asset('media/img/piranokids4.jpg')!!}"/>
+							</div>
+							<div class="sp-slide">
+								<img class="sp-image" alt="Pirano1913 modelos" title="Pirano1913" src="{!! asset('media/img/piranokids5.jpg')!!}"/>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="clearfix"></div>
 				<div class="col-md-6">
@@ -43,77 +58,6 @@
 				</div>
 				<div class="col-md-6"></div>
 			</div>
-		</div>
-		<div class="product">
-			<div class="slider-product">
-				<div class="slider-pro">
-					<div class="sp-slides">
-						<div class="sp-slide">
-							<div class="row align-items-center">
-								<div class="col-md-6 product1"><section></section></div>
-								<div class="col-md-6">
-									<div class="model-card">
-										<div class="tittle">Solar Mussa</div>
-										<div class="model">SM0943</div>
-										<div class="short-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-										<div class="color">
-											<span class="pink"></span>
-											<span class="red"></span>
-											<span class="blue"></span>
-										</div>
-										<div class="clearfix">
-											<a href="#" class="btn btn-border float-right">comprar</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="sp-slide">
-							<div class="row align-items-center">
-								<div class="col-md-6 product2"><section></section></div>
-								<div class="col-md-6">
-									<div class="model-card">
-										<div class="tittle">Solar Mussa</div>
-										<div class="model">SM0943</div>
-										<div class="short-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-										<div class="color">
-											<span class="pink"></span>
-											<span class="red"></span>
-											<span class="blue"></span>
-										</div>
-										<div class="clearfix">
-											<a href="#" class="btn btn-border float-right">comprar</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="sp-slide">
-							<div class="row align-items-center">
-								<div class="col-md-6 product3"><section></section></div>
-								<div class="col-md-6">
-									<div class="model-card">
-										<div class="tittle">Solar Mussa</div>
-										<div class="model">SM0943</div>
-										<div class="short-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-										<div class="color">
-											<span class="pink"></span>
-											<span class="red"></span>
-											<span class="blue"></span>
-										</div>
-										<div class="clearfix">
-											<a href="#" class="btn btn-border float-right">comprar</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="colle-content container">
-			
 		</div>
 	</div>
 </div>

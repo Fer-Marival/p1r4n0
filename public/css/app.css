@@ -11570,7 +11570,7 @@ header nav .social a:hover {
   position: absolute;
   right: 0;
   left: 0;
-  top: 0;
+  bottom: 5%;
   bottom: 0;
   height: 200px;
   width: 80%;
@@ -12768,6 +12768,10 @@ footer .options ul .social {
   }
 }
 
+#kids .clearfix {
+  margin: 2em auto;
+}
+
 @media (max-width: 1091px) {
   .container {
     max-width: 100% !important;
@@ -12790,6 +12794,23 @@ footer .options ul .social {
     display: none;
   }
 
+  #v-bg {
+    background-image: url("/media/img/header-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+
+  #v-bg video {
+    display: none;
+  }
+
+  #v-bg .see-video a {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    font-weight: 400;
+  }
+
   #contact {
     max-height: -webkit-max-content;
     max-height: -moz-max-content;
@@ -12809,6 +12830,12 @@ footer .options ul .social {
             transform: scale(1);
     -webkit-transition: all .5s;
     transition: all .5s;
+  }
+
+  #news section article form button {
+    margin: 1em auto;
+    width: 200px;
+    display: block;
   }
 }
 

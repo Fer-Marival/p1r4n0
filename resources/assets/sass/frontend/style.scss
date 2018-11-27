@@ -253,7 +253,7 @@ header{
 			position: absolute;
 			right: 0;
 			left: 0;
-			top: 0;
+			bottom: 5%;
 			bottom: 0;
 			height: 200px;
 			width: 80%;
@@ -1233,5 +1233,10 @@ footer{
 				color: $color-3;
 			}
 		}
+	}
+}
+#kids{
+	.clearfix{
+		margin: 2em auto;
 	}
 }

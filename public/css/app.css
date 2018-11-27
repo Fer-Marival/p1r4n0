@@ -12914,3 +12914,9 @@ footer .options ul .social {
   }
 }
 
+.fb-chat {
+  position: fixed;
+  bottom: 100px;
+  right: 5%;
+}
+

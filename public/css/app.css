@@ -11888,6 +11888,23 @@ header nav .social a:hover {
   /* ---- .grid-item ---- */
 }
 
+#social .insta-follow {
+  height: 100px;
+}
+
+#social .insta-follow img {
+  max-height: 40px;
+  width: 40px;
+}
+
+#social .insta-follow img,
+#social .insta-follow .tittle,
+#social .insta-follow a {
+  float: left;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
 #social .grid {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -164,14 +164,10 @@
 			</div>
 		</div>
 		<div id="social">
-			<div class="row justify-content-md-center align-items-center">
-				<div class="col-2"><img src="{!! asset('media/img/icons/insta.svg') !!}" alt="insta" class="img-fluid"></div>
-				<div class="col-8">
-					<div class="tittle">
-						<h4>Síguenos en Instagram </h4>
-					</div>
-				</div>
-				<div class="col-1">
+			<div class="row">
+				<div class="insta-follow">
+					<img src="{!! asset('media/img/icons/insta.svg') !!}" alt="instagram pirano1913" class="img-fluid">
+					<div class="tittle"><h4>Síguenos en Instagram </h4></div>
 					<a href="https://www.instagram.com/Pirano1913/" class="btn-right btn-border"><span>&#x02992;</span></a>
 				</div>
 			</div>

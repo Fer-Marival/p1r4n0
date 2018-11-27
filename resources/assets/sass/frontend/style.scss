@@ -521,6 +521,18 @@ header{
 }
 #social{
 	margin:2em auto;
+	.insta-follow{
+		height: 100px;
+		img{
+			max-height:40px;
+			width: 40px; 
+		}
+		img, .tittle, a {
+			float: left;
+			vertical-align: middle;
+			margin-left: 10px;
+		}
+	}
 	/* ---- grid ---- */
 	.grid {
 	  display: flex;

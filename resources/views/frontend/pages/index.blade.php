@@ -83,7 +83,7 @@
 			<div class="col-md-4 content">
 				<div class="tittle">Otoño - Invierno</div>
 				<p>Conoce la nueva colección de Pirano1913 y luce con estilo en otoño e invierno </p>
-				<a href="{{url('/colecciones')}}" class="btn btn-border">Conoce nuestras colecciones <span>&#x02992;</span></a>
+				<a href="{{url('/colecciones')}}" class="btn btn-border">Ver colecciones <span>&#x02992;</span></a>
 			</div>
 		</div>
 		<div id="more-sale">
@@ -148,8 +148,8 @@
 				<div class="col-12 col-md-6">
 					<div class="pictures">
 						<a data-fancybox href="https://www.youtube.com/watch?v=AELyi16PzWI&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0">
-							<img src="{!!asset('media/img/team1.jpg') !!}" alt="" class="img-fluid" width="60%">
-    						<img src="{!! asset('media/img/team2.jpg')!!}" alt="" width="70%">
+							<img src="{!!asset('media/img/team1.jpg') !!}" alt="" class="img-fluid" width="300">
+    						<img src="{!! asset('media/img/team2.jpg')!!}" alt="" width="300">
     					</a>
 					</div>
 				</div>

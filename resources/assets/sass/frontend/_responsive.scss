@@ -102,9 +102,10 @@
 			margin: .5em;
 	    }
 	}
-}
-.fb-chat{
-	position: fixed;
-	bottom:100px;
-	right: 5%;
+	.fb-chat{
+		display: block;
+	}
+	.fb_dialog{
+		display: none!important;
+	}
 }

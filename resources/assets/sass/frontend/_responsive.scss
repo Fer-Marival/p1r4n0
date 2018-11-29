@@ -30,6 +30,7 @@
 			background-color: rgba(white, .4);
 			border-radius: 4px;
 			font-weight: 400;
+			border: 2px solid white;
 		}	
 
 	}
@@ -100,5 +101,11 @@
 			height: 20px;
 			margin: .5em;
 	    }
+	}
+	.fb-chat{
+		display: block;
+	}
+	.fb_dialog{
+		display: none!important;
 	}
 }

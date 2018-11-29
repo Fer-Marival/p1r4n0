@@ -235,15 +235,15 @@ header{
 	overflow:hidden;
 }
 #v-bg{
+	width: 100%;
 	height: 100vh;
 	padding:0!important;
+	overflow: hidden;
 	#video-background {
 		  position: relative;
 		  right: 0; 
 		  bottom: 0;
-		  min-width: 100%; 
-		  min-height: 100%;
-		  width: auto; 
+		  width: 100%; 
 		  height: auto;
 		  z-index: -100;
 		}
@@ -253,11 +253,18 @@ header{
 			position: absolute;
 			right: 0;
 			left: 0;
-			bottom: 5%;
+			bottom: 2%;
 			bottom: 0;
 			height: 200px;
 			width: 80%;
 			max-width: 1440px;
+			a{
+				border:2px solid white;
+				margin-top: 2.3em;
+				display: -webkit-inline-box;
+				color: white;
+				font-weight: 400;
+			}
 		}
 
 		h1 {
@@ -420,6 +427,9 @@ header{
 				color:$pirano;
 				font-size:14pt;
 			}
+			a{
+				font-weight: 700;
+			}
 		}
 	}
 	#more-sale{
@@ -575,7 +585,7 @@ header{
 }
 .btn-border{
 	border:2px solid $pirano;
-	border-radious:4px;
+	border-radius:4px;
 	color:$pirano;
 	padding:10px 20px;
 	&:hover{
@@ -1252,3 +1262,15 @@ footer{
 		margin: 2em auto;
 	}
 }
+.fb-chat{
+	display: none;
+	position: fixed;
+	bottom:60px;
+	right: 5%;
+}
+.fb_dialog{
+		display: block;
+		right: 5%;
+		bottom: 50pt!important;
+
+	}

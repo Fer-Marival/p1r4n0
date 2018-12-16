@@ -27,7 +27,7 @@ class ContactMessageController extends Controller
     	Mail::send('mails.contact-message', [ 
     		'msg' => $request->message
     	], function($mail) use($request){
-    		$mail->from($request->email);
+    		$mail->from($request->mail);
 
     		$mail->to('info@pirano1913.com')->subject('Contact Message');
     	});

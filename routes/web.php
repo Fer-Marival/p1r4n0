@@ -34,3 +34,11 @@ Route::get('/colecciones/categoria', function () {
 });
 
 Route::post('/newsletter', 'NewsController@index');
+
+Route::get('/contact', [
+	'uses' => 'ContactMessageController@create'
+]);
+Route::post('/contact', [
+	'uses' => 'ContactMessageController@store',
+	'as' => 'contact.store'
+]);

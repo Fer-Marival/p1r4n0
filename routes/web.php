@@ -42,3 +42,12 @@ Route::post('/contact', [
 	'uses' => 'ContactMessageController@store',
 	'as' => 'contact.store'
 ]);
+
+Route::get(‘/sparkpost’, function () {
+  Mail::send(‘emails.test’, [], function ($message) {
+    $message
+      ->from(‘from@yourdomain.com’, ‘Your Name’)
+      ->to(‘to@otherdomain.com’, ‘Receiver Name’)
+      ->subject(‘From SparkPost with ❤’);
+  });
+});

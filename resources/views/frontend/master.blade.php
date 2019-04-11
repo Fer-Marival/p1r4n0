@@ -99,7 +99,7 @@
 
 		@include('frontend/layout.menu')
 	    @yield('content')
-	    @include('frontend/layout.contact')
+		{{--@include('frontend/layout.contact') --}}
 	    @include('frontend/layout.footer')
 	    @include('frontend/layout.bottombar')
 	    <div class="back-to-top">&uarr;</div>

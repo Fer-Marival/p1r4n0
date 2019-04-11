@@ -20,6 +20,17 @@ jQuery( document ).ready(function( $ ) {
     autoplay: true,
   });
 });
+
+$( '.more-sale' ).sliderPro({
+  width: 500,
+  height: 400,
+  arrows: true,
+  buttons: true,
+  thumbnailsPosition: 'left', 
+  slideDistance: 50,
+    visibleSize: '100%',
+    autoplay: true,
+});
 /* menu responsive */
 $('.menu-item').addClass('menu-trigger');
 $('.menu-trigger').click(function(){

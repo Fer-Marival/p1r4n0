@@ -1,3 +1,30 @@
+<div class="services-bar">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col">
+				<section>
+					<img src="{{asset('media/icons/send.svg') }}" class="img-fluid" alt="">
+					<strong>Envío Gratis</strong>
+					<small>En compras mayores a $1500 MXN, <br>	compras menores se cobra el envio. </small>
+				</section>
+			</div>
+			<div class="col">
+				<section>
+					<img src="{{asset('media/icons/segure.svg') }}" class="img-fluid"alt="">
+					<strong>100% seguro</strong>
+					<small>Garantia de venta y compra en linea segura. </small>
+				</section>
+			</div>
+			<div class="col">
+				<section>
+					<img src="{{asset('media/icons/pays.svg') }}" class="img-fluid" alt="">
+					<strong>Diferentes tipo de pagos</strong>
+					<small>Paga con cualquier tarjeta mediante PayPal </small>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
 <footer>
 	<div class="options container">
 		<div class="row">

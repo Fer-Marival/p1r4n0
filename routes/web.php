@@ -33,6 +33,10 @@ Route::get('/colecciones/categoria', function () {
     return view('frontend/pages/category');
 });
 
+Route::get('/terminos-condiciones', function () {
+    return view('frontend/pages/terminos');
+});
+
 Route::post('/newsletter', 'NewsController@index');
 
 Route::get('/contact', [

@@ -20,7 +20,7 @@
 					</div>
 					<hr>
 					<p class="description">
-						Presentamos la nueva y renovada colección <strong>Otoño e invierno 2018</strong> – fruto de un trabajo de introspecci&oacute;n y estudio de nuestras raíces, para lograr algo mejorado, nuevo, sublime, sin perder nuestra identidad que es lo que la gente ha aprendido a amar en estos 2 largos años.
+						Presentamos la nueva y renovada colección <strong>{{ date('Y') }}</strong> – fruto de un trabajo de introspecci&oacute;n y estudio de nuestras raíces, para lograr algo mejorado, nuevo, sublime, sin perder nuestra identidad que es lo que la gente ha aprendido a amar en estos 2 largos años.
 					</p>
 					<a href="{{url('/shop')}}"><span>&#x02992;</span></a>
 				</div>
@@ -49,7 +49,7 @@
 				<div class="col-md-4">
 						<div class="collection one">
 							<div class="gradient">
-								<div class="tittle">Pirano SUN 2018</div>
+								<div class="tittle">Pirano<sup>®</sup> Solar</div>
 								<p><em>La nueva colección Pirano SUN 2018 trae la mejor moda y tendencias europeas a tu alcance.</em></p>
 								<a href="{{url('/colecciones/summer')}}" class="btn btn-border">Conoce más</a>
 							</div class="gradient">
@@ -58,7 +58,7 @@
 				<div class="col-md-4">
 					<div class="collection two">
 						<div class="gradient">
-							<div class="tittle">Pirano Vista</div>
+							<div class="tittle">Pirano<sup>®</sup> Vista</div>
 							<p><em>Hermosa colección de armazones de fino acetato italiano, que da continuidad a la tradición de la marca.</em></p>
 							<div class="clearfix">
 								<a href="{{url('/colecciones/vista')}}" class="btn btn-border">Conoce más</a>
@@ -69,7 +69,7 @@
 				<div class="col-md-4">
 					<div class="collection three">
 							<div class="gradient">
-								<div class="tittle">Pirano KidS</div>
+								<div class="tittle">Pirano<sup>®</sup> KidS</div>
 								<p><em>El hermoso acetato del lente Pirano KidS confiere personalidad total a la línea</em></p>
 								<div class="clearfix">
 									<a href="{{url('/colecciones/kids')}}" class="btn btn-border">Conoce más</a>
@@ -98,7 +98,7 @@
 						</figure>
 						<div class="content">
 							<div class="model"><strong>Modelo:</strong> TR1625 C_3</div>
-							<a href="{{url('/colecciones/shop/producto/lente-de-sol-pirano-tr1625-c3/')}}">Ver más</a>
+							<a href="{{url('/colecciones/shop/producto/lente-de-sol-pirano-tr1625-c3/')}}">Ver Detalles</a>
 						</div>
 					</div>
 				</div>
@@ -111,7 +111,7 @@
 						</figure>
 						<div class="content">
 							<div class="model"><strong>Modelo:</strong> M6019_c3</div>
-							<a href="{{url('/colecciones/shop/producto/lente-de-sol-pirano-m6019_c3/')}}">Ver más</a>
+							<a href="{{url('/colecciones/shop/producto/lente-de-sol-pirano-m6019_c3/')}}">Ver Detalles</a>
 						</div>
 					</div>
 				</div>
@@ -124,7 +124,7 @@
 						</figure>
 						<div class="content">
 							<div class="model"><strong>Modelo:</strong> 1691-c9</div>
-							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-1691-c9/">Ver más</a>
+							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-1691-c9/">Ver Detalles</a>
 						</div>
 					</div>
 				</div>
@@ -137,7 +137,7 @@
 						</figure>
 						<div class="content">
 							<div class="model"><strong>Modelo:</strong> 6076_c2</div>
-							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-6076-c2/">Ver más</a>
+							<a href="http://www.pirano1913.com/shop/producto/lente-de-sol-pirano-6076-c2/">Ver Detalles</a>
 						</div>
 					</div>
 				</div>
@@ -176,19 +176,28 @@
 			</div>
 		</div>
 		@include('frontend/layout.news')
-		{{-- 
-		<div id="promo-seasons">
+		<div id="promo">
 			<div class="row justify-content-end">
-				<div class="col-md-6">
+				<div class="col">
 					<section>
-						<img src="{!! asset('media/img/school-text.png')!!}" alt="" class="img-fluid">
-						<p class="description">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, omnis, nemo! Reiciendis eaque eum beatae consectetur numquam. Reprehenderit non, incidunt.
-						</p>
-						<a href="#" class="btn-border btn-right"> See More <span>&#x02992;</span></a>
+						<a href="http://www.pirano1913.com/shop/lentes-dama/">
+						<img src="http://www.pirano1913.com/shop/wp-content/uploads/2019/01/Mesa-de-trabajo-2-100.jpg" alt="" class="img-fluid"></a>
 					</section>
 				</div>
+				<div class="col">
+					<section>
+						<a href="http://www.pirano1913.com/shop/lentes-caballero">
+						<img src="http://www.pirano1913.com/shop/wp-content/uploads/2019/01/Mesa-de-trabajo-3-100.jpg" alt="" class="img-fluid"></a>
+					</section>
+				</div>
+				<div class="col">
+					<section>
+						<a href="http://www.pirano1913.com/shop/lentes-unisex">
+						<img src="http://www.pirano1913.com/shop/wp-content/uploads/2019/01/Mesa-de-trabajo-4-100.jpg" alt="" class="img-fluid"></a>
+					</section>
+				</div>
+
 			</div>
-		</div> --}}
+		</div>
 	</div>
 @endsection

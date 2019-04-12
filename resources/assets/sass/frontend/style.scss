@@ -370,10 +370,6 @@ header{
 					  left: 0;
 					  background-color: rgba(52, 73, 94, 0.75);
 					}
-				&:hover{
-					 transform: scale(1.1);
-					 transition: all .5s;
-				}
 				.gradient{
 					background: linear-gradient(rgba($pirano,0), $pirano);
 					width:100%;
@@ -386,15 +382,24 @@ header{
 						font-weight:bold;
 						color:white;
 					}
+					p,
 					em{
-						color:white!important;
-					}
-					p{
-						color:white;
+						display: none;
+						color: white;
+						-webkit-transition: all .25s ease-in-out;
+						   -moz-transition: all .25s ease-in-out;
+						    -ms-transition: all .25s ease-in-out;
+						     -o-transition: all .25s ease-in-out;
+						        transition: all .25s ease-in-out;
 					}
 					.btn{
-						color:white;
+						color: white;
 						border:2px solid white!important;
+					}
+					&:hover{
+						p, em{
+							display: block;
+						}
 					}
 				}
 			}
@@ -792,10 +797,6 @@ em{
 					  left: 0;
 					  background-color: rgba(52, 73, 94, 0.75);
 					}
-				&:hover{
-					 transform: scale(1.1);
-					 transition: all .5s;
-				}
 				.gradient{
 					background: linear-gradient(rgba($pirano,0), $pirano);
 					width:100%;

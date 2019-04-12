@@ -11,20 +11,7 @@
 	</div>
 	<div class="clear"></div>
 	<div class="container" id="home">
-		<div class="row align-items-center" id="slide-home">
-			<div class="col-md-4 left-slide">
-				<div class="content">
-					<div class="tittle">
-						<h1>PIRANO 1913</h1>
-						<h2>Otoño - Invierno</h2> 
-					</div>
-					<hr>
-					<p class="description">
-						Presentamos la nueva y renovada colección <strong>{{ date('Y') }}</strong> – fruto de un trabajo de introspecci&oacute;n y estudio de nuestras raíces, para lograr algo mejorado, nuevo, sublime, sin perder nuestra identidad que es lo que la gente ha aprendido a amar en estos 2 largos años.
-					</p>
-					<a href="{{url('/shop')}}"><span>&#x02992;</span></a>
-				</div>
-			</div>
+		<!-- <div class="row align-items-center" id="slide-home">
 			<div class="col-md-8">
 				<div class="slider-pro" id="my-slider">
 					<div class="sp-slides">
@@ -43,15 +30,15 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<div id="collections">
 			<div class="row">
 				<div class="col-md-4">
 						<div class="collection one">
 							<div class="gradient">
 								<div class="tittle">Pirano<sup>®</sup> Solar</div>
-								<p><em>La nueva colección Pirano SUN 2018 trae la mejor moda y tendencias europeas a tu alcance.</em></p>
-								<a href="{{url('/colecciones/summer')}}" class="btn btn-border">Conoce más</a>
+								<p><em>Nuestra colección Pirano Solar trae la mejor moda y tendencias europeas en gafas de sol a tu alcance.</em></p>
+								<a href="{{url('/colecciones/summer')}}" class="btn btn-border">Ver más</a>
 							</div class="gradient">
 						</div>
 				</div>
@@ -61,7 +48,7 @@
 							<div class="tittle">Pirano<sup>®</sup> Vista</div>
 							<p><em>Hermosa colección de armazones de fino acetato italiano, que da continuidad a la tradición de la marca.</em></p>
 							<div class="clearfix">
-								<a href="{{url('/colecciones/vista')}}" class="btn btn-border">Conoce más</a>
+								<a href="{{url('/colecciones/vista')}}" class="btn btn-border">ver más</a>
 							</div>
 						</div>
 					</div>
@@ -70,9 +57,9 @@
 					<div class="collection three">
 							<div class="gradient">
 								<div class="tittle">Pirano<sup>®</sup> KidS</div>
-								<p><em>El hermoso acetato del lente Pirano KidS confiere personalidad total a la línea</em></p>
+								<p><em>El hermoso acetato del lente Pirano KidS para que tu niño juegue comodo.</em></p>
 								<div class="clearfix">
-									<a href="{{url('/colecciones/kids')}}" class="btn btn-border">Conoce más</a>
+									<a href="{{url('/colecciones/kids')}}" class="btn btn-border">ver más</a>
 								</div>
 							</div>
 					</div>

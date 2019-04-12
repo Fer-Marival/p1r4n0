@@ -11699,13 +11699,6 @@ header nav .social a:hover {
   background-color: rgba(52, 73, 94, 0.75);
 }
 
-#home #collections .row .collection:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-
 #home #collections .row .collection .gradient {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 16, 64, 0)), to(#001040));
   background: linear-gradient(rgba(0, 16, 64, 0), #001040);
@@ -11722,17 +11715,22 @@ header nav .social a:hover {
   color: white;
 }
 
+#home #collections .row .collection .gradient p,
 #home #collections .row .collection .gradient em {
-  color: white !important;
-}
-
-#home #collections .row .collection .gradient p {
+  display: none;
   color: white;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
 }
 
 #home #collections .row .collection .gradient .btn {
   color: white;
   border: 2px solid white !important;
+}
+
+#home #collections .row .collection .gradient:hover p,
+#home #collections .row .collection .gradient:hover em {
+  display: block;
 }
 
 #home #collections .row .one {
@@ -12226,13 +12224,6 @@ em i:hover {
   top: 0;
   left: 0;
   background-color: rgba(52, 73, 94, 0.75);
-}
-
-#error #collections .row .collection:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: all .5s;
-  transition: all .5s;
 }
 
 #error #collections .row .collection .gradient {

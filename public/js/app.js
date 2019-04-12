@@ -44202,6 +44202,7 @@ jQuery(document).ready(function ($) {
     autoplay: true
   });
 });
+
 /* menu responsive */
 $('.menu-item').addClass('menu-trigger');
 $('.menu-trigger').click(function () {
@@ -44211,35 +44212,39 @@ $('.menu-trigger').click(function () {
   $('.menu-type').toggleClass('open');
 });
 
-/* Waypoints */
-$('#box').waypoint(function (direction) {
-  if (direction == 'down') {
-    $('.box1').addClass('animated fadeInRight show');
-  } else {
-    $('.box1').removeClass('show');
-  }
-}, { offset: '80%' });
-$('#box2').waypoint(function (direction) {
-  if (direction == 'down') {
-    $('.box2').addClass('animated fadeInLeft show');
-  } else {
-    $('.box2').removeClass('show');
-  }
-}, { offset: '80%' });
-$('#vista').waypoint(function (direction) {
-  if (direction == 'down') {
-    $('.box1').addClass('animated fadeInLeft show');
-  } else {
-    $('.box1').removeClass('show');
-  }
-}, { offset: '80%' });
-$('#vista').waypoint(function (direction) {
-  if (direction == 'down') {
-    $('.box2').addClass('animated fadeInRight show');
-  } else {
-    $('.box2').removeClass('show');
-  }
-}, { offset: '80%' });
+// /* Waypoints */
+//  $('#box').waypoint(function( direction) {
+//    if(direction == 'down'){
+//      $('.box1').addClass('animated fadeInRight show');
+
+//    } else{
+//        $('.box1').removeClass('show');
+//    }
+//  }, { offset: '80%' });
+//  $('#box2').waypoint(function( direction) {
+//    if(direction == 'down'){
+//      $('.box2').addClass('animated fadeInLeft show');
+
+//    } else{
+//        $('.box2').removeClass('show');
+//    }
+//  }, { offset: '80%' });
+//  $('#vista').waypoint(function( direction) {
+//    if(direction == 'down'){
+//      $('.box1').addClass('animated fadeInLeft show');
+
+//    } else{
+//        $('.box1').removeClass('show');
+//    }
+//  }, { offset: '80%' });
+//   $('#vista').waypoint(function( direction) {
+//    if(direction == 'down'){
+//      $('.box2').addClass('animated fadeInRight show');
+
+//    } else{
+//        $('.box2').removeClass('show');
+//    }
+//  }, { offset: '80%' });
 
 /* slide de promos */
 $('#carouselExample').on('slide.bs.carousel', function (e) {
@@ -44261,6 +44266,7 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
     }
   }
 });
+
 var Instafeed = __webpack_require__(49);
 var imagesLoaded = __webpack_require__(50);
 var Masonry = __webpack_require__(13);

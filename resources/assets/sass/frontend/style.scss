@@ -415,11 +415,7 @@ header{
 		}
 	}
 	#campaing{
-		background-image:url('/media/img/verano.jpg');
-		background-size:cover;
-		background-repeat:no-repeat;
-		background-position:top center;
-		height:400px;
+		height:350px;
 		.content{
 			padding:2em;
 			.tittle{
@@ -1319,4 +1315,22 @@ footer{
 		height: 400px;
 		margin-bottom: 1em;
 	}
+}
+.promotions-bar{
+	background-color: $pirano;
+	color: white;
+	display: block;
+	text-align: center;
+	a{
+		color: white;
+		&:hover{
+			color: blue;
+			text-decoration: none;
+		}
+	}
+}
+.header{
+	height: 500px;
+	width: 100%;
+	background-color: #f9f9f9;
 }

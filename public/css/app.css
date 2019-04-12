@@ -11746,11 +11746,7 @@ header nav .social a:hover {
 }
 
 #home #campaing {
-  background-image: url("/media/img/verano.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  height: 400px;
+  height: 350px;
 }
 
 #home #campaing .content,
@@ -12873,6 +12869,28 @@ footer .options ul .social {
   background-position: center center;
   height: 400px;
   margin-bottom: 1em;
+}
+
+.promotions-bar {
+  background-color: #001040;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.promotions-bar a {
+  color: white;
+}
+
+.promotions-bar a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.header {
+  height: 500px;
+  width: 100%;
+  background-color: #f9f9f9;
 }
 
 @media (max-width: 1091px) {

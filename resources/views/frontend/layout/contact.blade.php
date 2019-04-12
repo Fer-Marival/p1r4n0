@@ -18,23 +18,24 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<form action="" class="form">
+				<form class="form" method="post" action="{{route('contact.store')}}">
+					{{ csrf_field() }}
 						<strong class="tittle">Contáctanos </strong>
 					  <div class="form-group">
 					    <label for="name">Nombres:</label>
-					    <input type="text" class="form-control" id="name" placeholder="ingresa tus nombres" required>
+					    <input type="text" class="form-control" name="name" placeholder="ingresa tus nombres" required>
 					  </div>
 					  <div class="form-group">
 					    <label for="lastname">Apellido:</label>
-					    <input type="text" class="form-control" id="lastname" placeholder="Ingresa tus apellidos" required>
+					    <input type="text" class="form-control" name="lastname" placeholder="Ingresa tus apellidos" required>
 					  </div>
 					  <div class="form-group">
-					    <label for="mail">Email:</label>
-					    <input type="email" class="form-control" id="mail" placeholder="youremail@tusitio.com" required>
+					    <label for="email">Email:</label>
+					    <input type="email" class="form-control" name="email" placeholder="youremail@tusitio.com" required>
 					  </div>
 					  <div class="form-group">
 					    <label for="phone">Teléfono: </label>
-					    <input type="phone" class="form-control" id="phone" placeholder="+52 01322 28920" required>
+					    <input type="phone" class="form-control" name="phone" placeholder="+52 01322 28920" required>
 					  </div>
 					  <div class="form-group">
 					    <label for="message">Deja un bonito mensaje:</label>

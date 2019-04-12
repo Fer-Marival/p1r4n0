@@ -1,4 +1,7 @@
 <header>
+	<div class="promotions-bar">
+		<p><a href="#">Envío gratis a toda la republica mexicana <sup>* </sup></a></p>
+	</div>
 	<nav class="row align-items-center">
 		<div class="brand col-md-2">
 			<a href="{{url('/')}}">

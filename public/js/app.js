@@ -44181,28 +44181,32 @@ var __WEBPACK_LOCAL_MODULE_0__, __WEBPACK_LOCAL_MODULE_0__factory, __WEBPACK_LOC
 /***/ (function(module, exports, __webpack_require__) {
 
 
-jQuery(document).ready(function ($) {
-  $('#my-slider').sliderPro({
-    width: 723,
-    height: 500,
-    fade: true,
-    arrows: true,
-    buttons: false
-  });
+$('#my-slider').sliderPro({
+  width: 723,
+  height: 500,
+  fade: true,
+  arrows: true,
+  buttons: false
 });
 
-jQuery(document).ready(function ($) {
-  $('#product-slider-summer').sliderPro({
-    width: 723,
-    height: 500,
-    arrows: true,
-    buttons: false,
-    slideDistance: 50,
-    visibleSize: 950,
-    autoplay: true
-  });
+$('.more-sale').sliderPro({
+  width: 250,
+  height: 500,
+  arrows: true,
+  buttons: false,
+  slideDistance: 50,
+  visibleSize: 1200,
+  autoplay: true
 });
 
+$('.promotions').sliderPro({
+  width: "100%",
+  height: 350,
+  arrows: true,
+  buttons: false,
+  visibleSize: 1200,
+  autoplay: true
+});
 /* menu responsive */
 $('.menu-item').addClass('menu-trigger');
 $('.menu-trigger').click(function () {

@@ -1,5 +1,4 @@
 
-jQuery( document ).ready(function( $ ) {
 	$( '#my-slider' ).sliderPro({
 		width: 723, 
 		height: 500,
@@ -7,20 +6,25 @@ jQuery( document ).ready(function( $ ) {
     arrows: true,
 		buttons: false,
 	});
-});
 
-jQuery( document ).ready(function( $ ) {
-  $( '#product-slider-summer' ).sliderPro({
-    width: 723, 
+  $( '.more-sale' ).sliderPro({
+    width: 250, 
     height: 500,
     arrows: true,
     buttons: false,
     slideDistance: 50,
-    visibleSize: 950,
+    visibleSize: 1200,
     autoplay: true,
   });
-});
 
+ $( '.promotions' ).sliderPro({
+    width: "100%", 
+    height: 350,
+    arrows: true,
+    buttons: false,
+    visibleSize: 1200,
+    autoplay: true,
+  });
 /* menu responsive */
 $('.menu-item').addClass('menu-trigger');
 $('.menu-trigger').click(function(){

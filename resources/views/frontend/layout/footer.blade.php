@@ -1,30 +1,3 @@
-<div class="services-bar">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col">
-				<section>
-					<img src="{{asset('media/icons/send.svg') }}" class="img-fluid" alt="">
-					<strong>Envío Gratis</strong>
-					<small>En compras mayores a $1500 MXN, <br>	compras menores se cobra el envio. </small>
-				</section>
-			</div>
-			<div class="col">
-				<section>
-					<img src="{{asset('media/icons/segure.svg') }}" class="img-fluid"alt="">
-					<strong>100% seguro</strong>
-					<small>Garantia de venta y compra en linea segura. </small>
-				</section>
-			</div>
-			<div class="col">
-				<section>
-					<img src="{{asset('media/icons/pays.svg') }}" class="img-fluid" alt="">
-					<strong>Diferentes tipo de pagos</strong>
-					<small>Paga con cualquier tarjeta mediante PayPal </small>
-				</section>
-			</div>
-		</div>
-	</div>
-</div>
 <footer>
 	<div class="options container">
 		<div class="row">
@@ -32,9 +5,9 @@
 				<ul>
 					<li><a href="#"><strong>INICIO</strong></a></li>
 					<li><a href="/collection"><strong>COLECCIONES</strong></a></li>
-					<li><a href="/collection/summer">Summer</a></li>
-					<li><a href="/collection/">Vista</a></li>
-					<li><a href="/collection/">Kids</a></li>
+					<li><a href="/collection/summer">Solar</a></li>
+					<li><a href="/collection/vista">Vista</a></li>
+					<li><a href="/collection/kids">Kids</a></li>
 				</ul>
 				<ul>
 					<li><a href="#"><strong>PIRANO1913</strong></a></li>

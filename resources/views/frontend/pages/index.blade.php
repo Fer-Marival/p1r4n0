@@ -111,7 +111,7 @@
 		                <div class="item">
 							<figure>
 								<a href="{{url('/colecciones/shop/producto/lente-de-sol-pirano-tr1625-c3/')}}">
-									<img src="{!! asset('/media/img/verano.jpg') !!}" class="img-fluid sp-image" alt="">
+									<img src="{!! asset('/media/img/temp-prim.jpg') !!}" class="img-fluid sp-image" alt="">
 								</a>
 							</figure>
 						</div>

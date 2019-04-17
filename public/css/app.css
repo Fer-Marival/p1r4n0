@@ -11608,23 +11608,23 @@ header nav .social a:hover {
   background-color: #3498db;
 }
 
-#home #slide-home {
+#slide-home {
   background-color: #f9f9f9;
   margin-left: 0;
   margin-right: 0;
 }
 
-#home #slide-home .left-slide h1 {
+#slide-home .left-slide h1 {
   font-weight: bold;
   color: #001040;
   text-align: center;
 }
 
-#home #slide-home .left-slide h2 {
+#slide-home .left-slide h2 {
   text-align: center;
 }
 
-#home #slide-home .left-slide hr {
+#slide-home .left-slide hr {
   border: none;
   height: 2px;
   background-color: #001040;
@@ -11632,19 +11632,19 @@ header nav .social a:hover {
   width: 10%;
 }
 
-#home #slide-home .left-slide hr:after {
+#slide-home .left-slide hr:after {
   content: "";
   float: left;
 }
 
-#home #slide-home .left-slide .description {
+#slide-home .left-slide .description {
   margin-top: 1rem;
   line-height: 1.5;
   text-indent: 20px;
   color: #636b6f;
 }
 
-#home #slide-home .left-slide a {
+#slide-home .left-slide a {
   color: #343a40;
   font-size: 20pt;
   display: block;
@@ -11653,7 +11653,7 @@ header nav .social a:hover {
   text-align: center;
 }
 
-#home #slide-home .left-slide a:hover {
+#slide-home .left-slide a:hover {
   color: blue;
   text-decoration: none;
   background-color: rgba(52, 58, 64, 0.08);
@@ -11661,20 +11661,20 @@ header nav .social a:hover {
   transition: all ease-in-out .3s;
 }
 
-#home #slide-home #my-slider .sp-mask {
+#slide-home #my-slider .sp-mask {
   width: 724px;
 }
 
-#home #collections {
+#collections {
   margin: 1.5em auto;
   padding: 1.5em 0;
 }
 
-#home #collections .row .col-md-4 {
+#collections .row .col-md-4 {
   overflow: hidden;
 }
 
-#home #collections .row .collection {
+#collections .row .collection {
   background-color: #f9f9f9;
   height: 450px;
   width: 100%;
@@ -11688,7 +11688,7 @@ header nav .social a:hover {
   margin: auto;
 }
 
-#home #collections .row .collection:before {
+#collections .row .collection:before {
   content: "";
   display: none;
   height: 100%;
@@ -11699,84 +11699,89 @@ header nav .social a:hover {
   background-color: rgba(52, 73, 94, 0.75);
 }
 
-#home #collections .row .collection .gradient {
+#collections .row .collection .gradient {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 16, 64, 0)), to(#001040));
   background: linear-gradient(rgba(0, 16, 64, 0), #001040);
   width: 100%;
-  height: 70%;
+  height: auto;
   position: absolute;
   padding: 15px;
   bottom: 0;
+  -webkit-transition: all .25s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
-#home #collections .row .collection .gradient .tittle {
+#collections .row .collection .gradient .tittle {
   font-size: 20pt;
   font-weight: bold;
   color: white;
 }
 
-#home #collections .row .collection .gradient p,
-#home #collections .row .collection .gradient em {
+#collections .row .collection .gradient p,
+#collections .row .collection .gradient em {
   display: none;
+  opacity: 0;
   color: white;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
-#home #collections .row .collection .gradient .btn {
+#collections .row .collection .gradient .btn {
   color: white;
   border: 2px solid white !important;
 }
 
-#home #collections .row .collection .gradient:hover p,
-#home #collections .row .collection .gradient:hover em {
+#collections .row .collection .gradient:hover p,
+#collections .row .collection .gradient:hover em {
+  opacity: 1;
   display: block;
 }
 
-#home #collections .row .one {
+#collections .row .one {
   background-image: url("/media/img/colection1.jpg");
 }
 
-#home #collections .row .two {
+#collections .row .two {
   background-image: url("/media/img/colection2.jpg");
 }
 
-#home #collections .row .three {
+#collections .row .three {
   background-image: url("/media/img/colection3.jpg");
 }
 
-#home #campaing {
+#campaing {
   height: 350px;
 }
 
-#home #campaing .content,
-#home #campaing #promo {
+#campaing .content,
+#campaing #promo {
   padding: 2em;
 }
 
-#home #campaing .content .tittle,
-#home #campaing #promo .tittle {
+#campaing .content .tittle,
+#campaing #promo .tittle {
   font-size: 20pt;
   color: #001040;
   margin: 1em auto;
 }
 
-#home #campaing .content p,
-#home #campaing #promo p {
+#campaing .content p,
+#campaing #promo p {
   color: #001040;
   font-size: 14pt;
 }
 
-#home #campaing .content a,
-#home #campaing #promo a {
+#campaing .content a,
+#campaing #promo a {
   font-weight: 700;
 }
 
-#home #more-sale {
+#more-sale {
   margin: 3em auto;
 }
 
-#home #more-sale h3 {
+#more-sale h3 {
   line-height: 2;
   letter-spacing: 1px;
   display: -ms-grid;
@@ -11789,7 +11794,7 @@ header nav .social a:hover {
   align-items: center;
 }
 
-#home #more-sale .item {
+#more-sale .item {
   width: 100%;
   height: auto;
   cursor: pointer;
@@ -11797,19 +11802,19 @@ header nav .social a:hover {
   text-align: center;
 }
 
-#home #more-sale .item img {
+#more-sale .item img {
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   width: 100%;
   height: auto;
 }
 
-#home #more-sale .item img:hover {
+#more-sale .item img:hover {
   opacity: .8;
 }
 
-#home #more-sale .item .content a,
-#home #more-sale .item #promo a {
+#more-sale .item .content a,
+#more-sale .item #promo a {
   display: block;
   width: 100%;
   background-color: white;
@@ -11818,8 +11823,8 @@ header nav .social a:hover {
   color: #001040;
 }
 
-#home #more-sale .item .content a:hover,
-#home #more-sale .item #promo a:hover {
+#more-sale .item .content a:hover,
+#more-sale .item #promo a:hover {
   background-color: #001040;
   color: white;
   -webkit-transition: all .5s ease-in-out;
@@ -12887,10 +12892,29 @@ footer .options ul .social {
   text-decoration: none;
 }
 
+.promotions-bar i {
+  color: white;
+}
+
 .header {
   height: 500px;
   width: 100%;
   background-color: #f9f9f9;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#collections .header {
+  background-image: url("/media/img/bg-colection.jpg");
+}
+
+#summer .header {
+  background-image: url("/media/img/bg-colection.jpg");
+}
+
+#vista .header {
+  background-image: url("/media/img/bg-vista.jpg");
 }
 
 @media (max-width: 1091px) {

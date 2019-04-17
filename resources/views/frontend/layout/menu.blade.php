@@ -1,6 +1,6 @@
 <header>
 	<div class="promotions-bar">
-		<p><a href="#">Envío gratis a toda la republica mexicana <sup>* </sup></a></p>
+		<p><a href="#"> Envío gratis a toda la republica mexicana<sup>*</sup> <i class="fas fa-truck"></i></a></p>
 	</div>
 	<nav class="row align-items-center">
 		<div class="brand col-md-2">
@@ -18,7 +18,7 @@
 					<ul class="collection-hidden">
 						<li class="nav-item">
 							<section>
-								<div class="name">Pirano Sun</div>
+								<div class="name">Pirano Solar</div>
 								<div class="thumb"><a href="{{url('/colecciones/summer')}}"><img src="{!!asset('/media/img/colection1.jpg')!!}" class="img-fluid" alt="Pirano 1913 sun"></a></div>
 							</section>	
 						</li>

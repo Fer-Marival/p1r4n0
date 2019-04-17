@@ -291,191 +291,198 @@ header{
 		}
 }
 
-#home{
-	#slide-home{
-		background-color:$fondo;
-		margin-left:0;
-		margin-right:0;
-		.left-slide{
-			h1{
-				font-weight:bold;
-				color:$pirano;
-				text-align: center;
-			}
-			h2{text-align: center;}
-			hr{
-				border:none;
-				height:2px;
-				background-color:$pirano;
-				display:block;
-				width:10%;
-				&:after{
-					content:"";
-					float:left;
-				}
-			}
-			.description{
-				margin-top:1rem;
-				line-height:1.5;
-				text-indent:20px;
-				color:$text-color;
-			}
-			a{
-				color:$dark;
-				font-size:20pt;
-				display:block;
-				width:40px;
-				float:right;
-				text-align:center;
-				span{
 
-				}
-				&:hover{
-					color:blue;
-					text-decoration:none;
-					background-color:rgba($dark, $alpha);
-					transition: all ease-in-out .3s;
-				}
-			}
-		}
-		#my-slider .sp-mask{
-			width: 724px;
-		}
-	}
-	#collections{
-		margin:1.5em auto;
-		padding: 1.5em 0;
-		.row{
-			.col-md-4{
-				overflow:hidden;
-			}
-			.collection{
-				background-color:$fondo;
-				height:450px;
-				width:100%;
-				position:relative;
-				background-position:top center;
-				background-repeat:no-repeat;
-				background-size:cover;
-				cursor:pointer;
-				transition: all .5s;
-				margin:auto;
-				&:before {
-					  content: "";
-					  display: none;
-					  height: 100%;
-					  width: 100%;
-					  position: absolute;
-					  top: 0;
-					  left: 0;
-					  background-color: rgba(52, 73, 94, 0.75);
-					}
-				.gradient{
-					background: linear-gradient(rgba($pirano,0), $pirano);
-					width:100%;
-					height:70%;
-					position:absolute;
-					padding:15px;
-					bottom:0;
-					.tittle{
-						font-size:20pt;
-						font-weight:bold;
-						color:white;
-					}
-					p,
-					em{
-						display: none;
-						color: white;
-						-webkit-transition: all .25s ease-in-out;
-						   -moz-transition: all .25s ease-in-out;
-						    -ms-transition: all .25s ease-in-out;
-						     -o-transition: all .25s ease-in-out;
-						        transition: all .25s ease-in-out;
-					}
-					.btn{
-						color: white;
-						border:2px solid white!important;
-					}
-					&:hover{
-						p, em{
-							display: block;
-						}
-					}
-				}
-			}
-			.one{
-    			background-image:url('/media/img/colection1.jpg')			
-    		}
-    		.two{
-				background-image:url('/media/img/colection2.jpg')
-    		}
-    		.three{
-    			background-image:url('/media/img/colection3.jpg')
-    		}
-		}
-	}
-	#campaing{
-		height:350px;
-		.content{
-			padding:2em;
-			.tittle{
-				font-size:20pt;
-				color:$pirano;
-				margin:1em auto;
-			}
-			p{
-				color:$pirano;
-				font-size:14pt;
-			}
-			a{
-				font-weight: 700;
-			}
-		}
-	}
-	#more-sale{
-		margin:3em auto;
-		h3{
-			line-height: 2;
-		    letter-spacing: 1px;
-		    display: -ms-grid;
-		    display: grid;
-		    -ms-grid-columns: 1fr auto 1fr;
-		    grid-template-columns: 1fr auto 1fr;
-		    grid-gap: 20px;
-		    -webkit-box-align: center;
-		    -ms-flex-align: center;
-		    align-items: center;
-		}
-		.item{
-			width:100%;
-			height:auto;
-			cursor:pointer;
-			border-radius:3px;
+#slide-home{
+	background-color:$fondo;
+	margin-left:0;
+	margin-right:0;
+	.left-slide{
+		h1{
+			font-weight:bold;
+			color:$pirano;
 			text-align: center;
-			img{
-				transition: all .5s ease-in-out;
-				width: 100%;
-				height:  auto;
+		}
+		h2{text-align: center;}
+		hr{
+			border:none;
+			height:2px;
+			background-color:$pirano;
+			display:block;
+			width:10%;
+			&:after{
+				content:"";
+				float:left;
+			}
+		}
+		.description{
+			margin-top:1rem;
+			line-height:1.5;
+			text-indent:20px;
+			color:$text-color;
+		}
+		a{
+			color:$dark;
+			font-size:20pt;
+			display:block;
+			width:40px;
+			float:right;
+			text-align:center;
+			span{
+
+			}
+			&:hover{
+				color:blue;
+				text-decoration:none;
+				background-color:rgba($dark, $alpha);
+				transition: all ease-in-out .3s;
+			}
+		}
+	}
+	#my-slider .sp-mask{
+		width: 724px;
+	}
+}
+#collections{
+	margin:1.5em auto;
+	padding: 1.5em 0;
+	.row{
+		.col-md-4{
+			overflow:hidden;
+		}
+		.collection{
+			background-color:$fondo;
+			height:450px;
+			width:100%;
+			position:relative;
+			background-position:top center;
+			background-repeat:no-repeat;
+			background-size:cover;
+			cursor:pointer;
+			transition: all .5s;
+			margin:auto;
+			&:before {
+				  content: "";
+				  display: none;
+				  height: 100%;
+				  width: 100%;
+				  position: absolute;
+				  top: 0;
+				  left: 0;
+				  background-color: rgba(52, 73, 94, 0.75);
+				}
+			.gradient{
+				background: linear-gradient(rgba($pirano,0), $pirano);
+				width:100%;
+				height:auto;
+				position:absolute;
+				padding:15px;
+				bottom:0;
+				-webkit-transition: all .25s ease-in-out;
+					   -moz-transition: all .5s ease-in-out;
+					    -ms-transition: all .5s ease-in-out;
+					     -o-transition: all .5s ease-in-out;
+					        transition: all .5s ease-in-out;
+				.tittle{
+					font-size:20pt;
+					font-weight:bold;
+					color:white;
+				}
+				p,
+				em{
+					display: none;
+					opacity: 0;
+					color: white;
+					-webkit-transition: all .5s ease-in-out;
+					   -moz-transition: all .5s ease-in-out;
+					    -ms-transition: all .5s ease-in-out;
+					     -o-transition: all .5s ease-in-out;
+					        transition: all .5s ease-in-out;
+				}
+				.btn{
+					color: white;
+					border:2px solid white!important;
+				}
 				&:hover{
-					opacity: .8;
+					p, em{
+						opacity: 1;
+						display: block;
+					}
 				}
 			}
-			.content a{
-				display: block;
-				width: 100%;
-				background-color: white;
-				padding:5px;
-				border-radius: 2px;
-				color: $pirano;
-				&:hover{
-					background-color: $pirano;
-					color: white;
-					transition: all .5s ease-in-out;
-				}
+		}
+		.one{
+			background-image:url('/media/img/colection1.jpg')			
+		}
+		.two{
+			background-image:url('/media/img/colection2.jpg')
+		}
+		.three{
+			background-image:url('/media/img/colection3.jpg')
+		}
+	}
+}
+#campaing{
+	height:350px;
+	.content{
+		padding:2em;
+		.tittle{
+			font-size:20pt;
+			color:$pirano;
+			margin:1em auto;
+		}
+		p{
+			color:$pirano;
+			font-size:14pt;
+		}
+		a{
+			font-weight: 700;
+		}
+	}
+}
+#more-sale{
+	margin:3em auto;
+	h3{
+		line-height: 2;
+	    letter-spacing: 1px;
+	    display: -ms-grid;
+	    display: grid;
+	    -ms-grid-columns: 1fr auto 1fr;
+	    grid-template-columns: 1fr auto 1fr;
+	    grid-gap: 20px;
+	    -webkit-box-align: center;
+	    -ms-flex-align: center;
+	    align-items: center;
+	}
+	.item{
+		width:100%;
+		height:auto;
+		cursor:pointer;
+		border-radius:3px;
+		text-align: center;
+		img{
+			transition: all .5s ease-in-out;
+			width: 100%;
+			height:  auto;
+			&:hover{
+				opacity: .8;
+			}
+		}
+		.content a{
+			display: block;
+			width: 100%;
+			background-color: white;
+			padding:5px;
+			border-radius: 2px;
+			color: $pirano;
+			&:hover{
+				background-color: $pirano;
+				color: white;
+				transition: all .5s ease-in-out;
 			}
 		}
 	}
 }
+
 #team{
 	background-color:$fondo;
 	height:auto;
@@ -1328,9 +1335,25 @@ footer{
 			text-decoration: none;
 		}
 	}
+	i{
+		color: white;
+	}
 }
 .header{
 	height: 500px;
 	width: 100%;
 	background-color: #f9f9f9;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#collections .header{
+	background-image: url('/media/img/bg-colection.jpg');
+}
+
+#summer .header{
+	background-image: url('/media/img/bg-colection.jpg');
+}
+#vista .header{
+	background-image: url('/media/img/bg-vista.jpg');
 }

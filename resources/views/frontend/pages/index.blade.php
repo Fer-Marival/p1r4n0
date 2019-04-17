@@ -49,7 +49,7 @@
 				<div class="col-md-4">
 						<div class="collection one">
 							<div class="gradient">
-								<div class="tittle">Pirano<sup>®</sup> Solar</div>
+								<div class="tittle">Pirano Solar</div>
 								<p><em>La nueva colección Pirano SUN 2018 trae la mejor moda y tendencias europeas a tu alcance.</em></p>
 								<a href="{{url('/colecciones/summer')}}" class="btn btn-border">Conoce más</a>
 							</div class="gradient">
@@ -58,7 +58,7 @@
 				<div class="col-md-4">
 					<div class="collection two">
 						<div class="gradient">
-							<div class="tittle">Pirano<sup>®</sup> Vista</div>
+							<div class="tittle">Pirano Vista</div>
 							<p><em>Hermosa colección de armazones de fino acetato italiano, que da continuidad a la tradición de la marca.</em></p>
 							<div class="clearfix">
 								<a href="{{url('/colecciones/vista')}}" class="btn btn-border">Conoce más</a>
@@ -69,7 +69,7 @@
 				<div class="col-md-4">
 					<div class="collection three">
 							<div class="gradient">
-								<div class="tittle">Pirano<sup>®</sup> KidS</div>
+								<div class="tittle">Pirano KidS</div>
 								<p><em>El hermoso acetato del lente Pirano KidS confiere personalidad total a la línea</em></p>
 								<div class="clearfix">
 									<a href="{{url('/colecciones/kids')}}" class="btn btn-border">Conoce más</a>
@@ -163,7 +163,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="social">
+	{{-- <div id="social">
 			<div class="row">
 				<div class="insta-follow">
 					<img src="{!! asset('media/img/icons/insta.svg') !!}" alt="instagram pirano1913" class="img-fluid">
@@ -174,7 +174,7 @@
 			<div id="instafeed" class='grid'>
 			  	<div class="grid-sizer"></div>
 			</div>
-		</div>
+		</div> --}}
 		@include('frontend/layout.news')
 		<div id="promo">
 			<div class="row justify-content-end">

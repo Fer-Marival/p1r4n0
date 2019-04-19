@@ -11294,6 +11294,10 @@ header nav .nav-item {
   padding: 10px 0px;
 }
 
+header nav .nav-item i {
+  color: #001040;
+}
+
 header nav .nav-item a {
   position: relative;
   display: inline-block;
@@ -11355,6 +11359,12 @@ header nav .collection-options .collection-hidden li section {
 
 header nav .collection-options .collection-hidden li section .thumb {
   width: 100%;
+  overflow: hidden;
+  height: 300px;
+}
+
+header nav .collection-options .collection-hidden li section .thumb:hover {
+  opacity: .5;
 }
 
 header nav .collection-options .collection-hidden:hover {
@@ -11388,6 +11398,10 @@ header nav .shop a {
   color: white;
 }
 
+header nav .shop i {
+  color: white;
+}
+
 header nav .shop:hover {
   opacity: .6;
   -webkit-transition: opacity .5s;
@@ -11412,6 +11426,10 @@ header nav .social a img {
 
 header nav .social a:hover {
   opacity: .6;
+}
+
+header .brand img {
+  max-height: 58px;
 }
 
 #menu-responsivo {
@@ -11506,8 +11524,15 @@ header nav .social a:hover {
 
 #menu-responsivo .menu ul li {
   list-style: none;
-  border-top: 1px solid #f9f9f9;
   border-bottom: 1px solid #f9f9f9;
+}
+
+#menu-responsivo .menu ul li a {
+  color: blue;
+}
+
+#menu-responsivo .menu ul li a i {
+  color: #001040;
 }
 
 #menu-responsivo .menu-tint {
@@ -11523,7 +11548,7 @@ header nav .social a:hover {
 }
 
 #menu-responsivo .cell {
-  width: 70%;
+  width: 100%;
   margin: 6rem auto;
   text-align: left;
 }
@@ -11900,6 +11925,10 @@ header nav .social a:hover {
   border: 1px solid white;
 }
 
+#summer .colle-header div {
+  margin: .5em auto;
+}
+
 #social {
   margin: 2em auto;
   /* ---- grid ---- */
@@ -12156,12 +12185,6 @@ em i:hover {
   font-size: 20pt;
   color: #001040;
   margin: 1em auto;
-}
-
-#vista img {
-  border-radius: 20px;
-  -webkit-box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.29);
-          box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.29);
 }
 
 #error {
@@ -12500,7 +12523,7 @@ footer .options ul .social {
 
 #collection .cd-slider .cd-half-block {
   height: 50%;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -12739,7 +12762,7 @@ footer .options ul .social {
 
   #collection .cd-slider h2,
   #collection .cd-slider p {
-    line-height: 1.5;
+    line-height: 1;
   }
 }
 
@@ -12883,6 +12906,10 @@ footer .options ul .social {
   text-align: center;
 }
 
+.promotions-bar p {
+  margin: 0 !important;
+}
+
 .promotions-bar a {
   color: white;
 }
@@ -12915,6 +12942,10 @@ footer .options ul .social {
 
 #vista .header {
   background-image: url("/media/img/bg-vista.jpg");
+}
+
+#kids .header {
+  background-image: url("/media/img/piranokids2.jpg");
 }
 
 @media (max-width: 1091px) {
@@ -13011,6 +13042,10 @@ footer .options ul .social {
     text-align: center;
   }
 
+  #menu-responsivo #menu-trigger {
+    top: 23px;
+  }
+
   #social .grid-sizer,
   #social .grid-item {
     width: 100% !important;
@@ -13053,6 +13088,15 @@ footer .options ul .social {
 
   .fb_dialog {
     display: none !important;
+  }
+
+  h3 {
+    display: block !important;
+    text-align: center;
+  }
+
+  #campaing {
+    height: 600px;
   }
 }
 

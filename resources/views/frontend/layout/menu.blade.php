@@ -14,7 +14,7 @@
 					<a href="{{url('/')}}">Inicio</a>
 				</li>
 				<li class="nav-item collection-options">
-					<a href="/colecciones">Colecciones</a>
+					<a href="/colecciones"><i class="fas fa-glasses"></i> Colecciones</a>
 					<ul class="collection-hidden">
 						<li class="nav-item">
 							<section>
@@ -36,11 +36,11 @@
 						</li>
 					</ul>
 				</li>
-				<li class="nav-item ">
-					<a href="#contact" class="">Contacto</a>
-				</li>
 				<li class="nav-item shop">
-					<a href="{{url('/shop')}}">e-Shop</a>
+					<a href="{{url('/shop')}}"><i class="fas fa-shopping-cart"></i> Comprar</a>
+				</li>
+				<li class="nav-item ">
+					<a href="mailto:info@pirano1913.com" class=""><i class="far fa-envelope"></i> Contacto</a>
 				</li>
 			</ul>
 		</div>	
@@ -62,21 +62,21 @@
                 <div class="cell">
                 	<ul>
 	                	<li class="nav-item">
-	                		<a href="{{url('/')}}" title="" class="nav-link">Inicio</a>
+	                		<a href="{{url('/')}}" title="" class="nav-link"><i class="fas fa-home"></i> Inicio</a>
 	                	</li>
 						<li class="nav-item">
-							<a href="{{url('/colecciones/')}}" title="" class="nav-link">Colecciones</a>
+							<a href="{{url('/colecciones/')}}" title="" class="nav-link"><i class="fas fa-glasses"></i> Colecciones</a>
 							<ul>
-								<li><a href="{{url('/colecciones/summer')}}">Summer</a></li>
-								<li><a href="{{url('/colecciones/kids')}}">Kids</a></li>
-								<li><a href="{{url('/colecciones/vista')}}">Vista</a></li>
+								<li><a href="{{url('/colecciones/summer')}}"><i class="far fa-sun"></i> Solar</a></li>
+								<li><a href="{{url('/colecciones/vista')}}"><i class="far fa-eye"></i> Vista</a></li>
+								<li><a href="{{url('/colecciones/kids')}}"><i class="fas fa-truck-pickup"></i> Kids</a></li>
 							</ul>
 						</li>
 						<li class="nav-item">
-							<a href="#contact" title="" class="nav-link contact">Contacto</a>
+							<a href="{{url('/shop')}}" title="" class="nav-link"><i class="fas fa-shopping-cart"></i> Comprar</a>
 						</li>
 						<li class="nav-item">
-							<a href="{{url('/shop')}}" title="" class="nav-link">e-Shop</a>
+							<a href="mailto:info@pirano1913.com" title="" class="nav-link contact"><i class="far fa-envelope"></i> Contacto</a>
 						</li>
 					</ul>
                 </div>

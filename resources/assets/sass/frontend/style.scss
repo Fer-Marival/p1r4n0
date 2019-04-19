@@ -25,6 +25,9 @@ header{
 		.nav-item{
 			margin-left:15px;
 			padding: 10px 0px;
+			i{
+				color: $pirano;
+			}
 			a {
 				  position: relative;
 				  display: inline-block;
@@ -72,6 +75,11 @@ header{
 						padding:10px;
 						.thumb{
 							width:100%;
+							overflow: hidden;
+    						height: 300px;
+    						&:hover{
+    							opacity: .5;
+    						}
 						}
 					}
 				}
@@ -97,6 +105,9 @@ header{
 			a{
 				color:white;
 			}
+			i{
+				color: white;
+			}
 			&:hover{
 				opacity:.6;
 				transition:opacity .5s; 
@@ -118,6 +129,9 @@ header{
 				}	
 			}
 		}
+	}
+	.brand img{
+		max-height: 58px;
 	}
 }
 #menu-responsivo{
@@ -196,8 +210,13 @@ header{
 		}
 		ul li{
 			list-style: none;
-			border-top:1px solid #f9f9f9;
 			border-bottom:1px solid #f9f9f9;
+			a{
+				color:blue;
+				i{
+					color: $pirano;
+				}
+			}
 		}
 	}
 	.menu-tint {
@@ -212,7 +231,7 @@ header{
 	  transition: all 0.75s cubic-bezier(.77,.06,.28,.85);
 	}
 	.cell{
-		width: 70%;
+		width: 100%;
 		margin: 6rem auto;
 		text-align: left;
 		img{
@@ -541,6 +560,13 @@ header{
 		}
 	}
 }
+#summer{
+	.colle-header{
+		div{
+			margin: .5em auto;
+		}
+	}
+}
 #social{
 	margin:2em auto;
 	.insta-follow{
@@ -742,10 +768,6 @@ em{
 	font-size:20pt;
 	color:$pirano;
 	margin:1em auto;
-}
-#vista img{
-	border-radius:20px;
-	box-shadow: $soft-shadow;
 }
 #error{
 	width: 80%;
@@ -1026,7 +1048,7 @@ footer{
 
 		.cd-half-block {
 			height: 50%;
-			background-position: center center;
+			background-position: top center;
 			background-repeat: no-repeat;
 		}
 
@@ -1195,7 +1217,7 @@ footer{
 			}
 
 			h2, p {
-				line-height: 1.5;
+				line-height: 1;
 			}
 		}
 
@@ -1328,6 +1350,9 @@ footer{
 	color: white;
 	display: block;
 	text-align: center;
+	p{
+		margin: 0!important;
+	}
 	a{
 		color: white;
 		&:hover{
@@ -1356,4 +1381,7 @@ footer{
 }
 #vista .header{
 	background-image: url('/media/img/bg-vista.jpg');
+}
+#kids .header{
+	background-image: url('/media/img/piranokids2.jpg');
 }

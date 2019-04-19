@@ -24,6 +24,11 @@
     buttons: false,
     visibleSize: 1200,
     autoplay: true,
+    breakpoints: {
+      500: {
+        height: 600,
+      },
+    }
   });
 /* menu responsive */
 $('.menu-item').addClass('menu-trigger');

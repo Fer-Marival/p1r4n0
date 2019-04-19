@@ -72,6 +72,9 @@
 		display:block;
 		text-align:center;
 	}
+	#menu-responsivo #menu-trigger{
+		top:23px;
+	}
 	#social{
 		.grid-sizer,
 		.grid-item {
@@ -107,5 +110,12 @@
 	}
 	.fb_dialog{
 		display: none!important;
+	}
+	h3{
+		display: block!important;
+		text-align: center;
+	}
+	#campaing{
+		height:600px;
 	}
 }

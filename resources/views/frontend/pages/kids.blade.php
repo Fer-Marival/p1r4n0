@@ -1,6 +1,5 @@
 @extends('frontend.master')
 @section('content')
-<div class="clear"></div>
 <div id="kids">
 	<div class="header"></div>
 	<div class="collections container">

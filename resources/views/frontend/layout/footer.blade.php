@@ -39,7 +39,7 @@
 					<li><a href="#"><strong>CONTACT US</strong></a></li>
 					<li><strong>Pirano 1913<sup>®</sup>	</strong> hechos para México con &hearts; desde Italia</li>
 					<li><a href="mailto:Info@pirano1913.com">Info@pirano1913.com</a></li>
-					<li>Llamános <a href="tel+3221962051">322 196 2051</a></li>
+					<li>Llamános <a href="tel+5213221962051">322 196 2051</a></li>
 					<li><p>Copyright © 2009-2019 Pirano1913. <br /> Todos los derechos reservados</p></li>
 				</ul>
 			</div>

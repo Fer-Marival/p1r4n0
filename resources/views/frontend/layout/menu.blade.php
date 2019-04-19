@@ -1,6 +1,6 @@
 <header>
 	<div class="promotions-bar">
-		<p><a href="#"> Envío gratis a toda la republica mexicana<sup>*</sup> <i class="fas fa-truck"></i></a></p>
+		<p><a href="{{url('/shop')}}"> Envío gratis a toda la republica mexicana<sup>*</sup> <i class="fas fa-truck"></i></a></p>
 	</div>
 	<nav class="row align-items-center">
 		<div class="brand col-md-2">
@@ -88,5 +88,4 @@
             <div></div>
         </div>
 </div>	
-
 

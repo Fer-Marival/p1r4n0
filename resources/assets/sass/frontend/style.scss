@@ -362,8 +362,8 @@ header{
 	}
 }
 #collections{
-	margin:1.5em auto;
-	padding: 1.5em 0;
+	// margin:1.5em auto;
+	// padding: 1.5em 0;
 	.row{
 		.col-md-4{
 			overflow:hidden;
@@ -571,11 +571,12 @@ header{
 	margin:2em auto;
 	.insta-follow{
 		height: 100px;
+		
 		img{
 			max-height:40px;
 			width: 40px; 
 		}
-		img, .tittle, a {
+		img, a {
 			float: left;
 			vertical-align: middle;
 			margin-left: 10px;
@@ -795,8 +796,8 @@ em{
 	}
 	
 	#collections{
-		margin:1.5em auto;
-		padding: 1.5em 0;
+		// margin:1.5em auto;
+		// padding: 1.5em 0;
 		.row{
 			.col-md-4{
 				overflow:hidden;
@@ -1385,3 +1386,25 @@ footer{
 #kids .header{
 	background-image: url('/media/img/piranokids2.jpg');
 }
+#modal {
+  display: none;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 0 40px 0;
+  text-align: justify;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  .fancybox-close-small {
+	  top: 15px;
+	}
+	.content-header {
+	  border-bottom: 1px solid #eee;
+	  padding: 20px;
+	}
+	.content-scroll {
+	  max-height: calc(100vh - 200px);
+	  overflow: auto;
+	  padding: 40px 20px 0 20px;
+	}
+}
+

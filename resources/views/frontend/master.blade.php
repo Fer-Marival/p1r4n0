@@ -85,6 +85,7 @@
 		  }
 		}
 	</script>
+	<link rel="stylesheet" type="text/css" href="{!! asset('css/app.css') !!} ">
 </head>
 <body>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -104,7 +105,6 @@
 	    @include('frontend/layout.bottombar')
 	    <div class="back-to-top">&uarr;</div>
 
-	<link rel="stylesheet" type="text/css" href="{!! asset('css/app.css') !!} ">
 	<script src="{!! asset('js/app.js') !!}" type="text/javascript"></script>
 	<div id="fb-root"></div>
 		<!-- Your customer chat code -->

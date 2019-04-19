@@ -52,26 +52,26 @@
 	                <div class="sp-slide">
 	                 <div class="item">
 						<figure>
-							<a href="{{url('/colecciones/shop/producto/lente-de-sol-pirano-tr1625-c3/')}}">
+							<a href="https://www.pirano1913.com/shop/producto/lente-de-sol-pirano-tr1625-c3/">
 								<img src="{!! asset('/media/img/product1.jpg') !!}"class="img-fluid" alt="">
 							</a>
 						</figure>
 						<div class="content">
 							<div class="model"><strong>Modelo:</strong> TR1625 C_3</div>
-							<a href="{{url('/colecciones/shop/producto/lente-de-sol-pirano-tr1625-c3/')}}">Ver más</a>
+							<a href="https://www.pirano1913.com/shop/producto/lente-de-sol-pirano-tr1625-c3">Ver más</a>
 						</div>
 					</div>
 	                </div>
 	                <div class="sp-slide">
 	                 <div class="item">
 						<figure>
-							<a href="{{url('/colecciones/shop/producto/lente-de-sol-pirano-m6019_c3/')}}">
+							<a href="https://www.pirano1913.com/shop/producto/lente-de-sol-pirano-m6019_c3/">
 								<img src="{!! asset('/media/img/product2.jpg') !!}"class="img-fluid" alt="">
 							</a>
 						</figure>
 						<div class="content">
 							<div class="model"><strong>Modelo:</strong> M6019_c3</div>
-							<a href="{{url('/colecciones/shop/producto/lente-de-sol-pirano-m6019_c3/')}}">Ver más</a>
+							<a href="https://www.pirano1913.com/shop/producto/lente-de-sol-pirano-m6019_c3/">Ver más</a>
 						</div>
 					</div>
 	                </div>
@@ -124,8 +124,7 @@
 			<div class="row">
 				<div class="insta-follow">
 					<img src="{!! asset('media/img/icons/insta.svg') !!}" alt="instagram pirano1913" class="img-fluid">
-					<div class="tittle"><h4>Síguenos en Instagram </h4></div>
-					<a href="https://www.instagram.com/Pirano1913/" class="btn-right btn-border"><span>&#x02992;</span></a>
+					<a href="https://www.instagram.com/Pirano1913/" class=""><h4>Síguenos en Instagram &#x02992;</h4> </a>
 				</div>
 			</div>
 			<div id="instafeed" class='grid'>
